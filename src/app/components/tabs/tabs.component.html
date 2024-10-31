@@ -1,0 +1,21 @@
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="home">
+      <ion-icon routerLink="/home" name="home"></ion-icon>
+      Inicio
+    </ion-tab-button>
+    <!-- *********PROXIMO ICONO PARA PAGINA******* -->
+    <ion-tab-button  tab="cotizar">
+      <ion-icon routerLink="/cotizar" name="calculator"></ion-icon>
+      Cotizar
+    </ion-tab-button>
+    <ion-tab-button tab="login">
+      <ion-icon routerLink="/login" name="log-in"></ion-icon>
+      Acceder
+    </ion-tab-button>
+    
+    
+  </ion-tab-bar>
+  
+  <router-outlet></router-outlet>
+</ion-tabs>

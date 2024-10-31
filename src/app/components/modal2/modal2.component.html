@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Iniciar Sesion</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="dismiss()">Cerrar</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="main-content">
+  <div class="glass-content">
+
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <app-form-log />
+    </form>
+  </div>
+</ion-content>
