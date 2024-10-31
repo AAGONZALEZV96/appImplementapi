@@ -1,0 +1,7 @@
+{
+  "name": "appImplementapi",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
